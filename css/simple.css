@@ -146,7 +146,7 @@ footer > a:link {
   }
 
   .image-container {
-    width: 100%;
+    width: 85%;
     height:450.33px;
     background-image: url('/images/BTV.gif'); /* Specify the path to the first image */
     background-size: cover; /* Ensure the image covers the container */
