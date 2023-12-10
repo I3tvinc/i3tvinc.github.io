@@ -145,6 +145,15 @@ footer > a:link {
     z-index:-1;
   }
 
+  #video-container {
+    height: 100%;
+    width: 100vw;
+    background-image: url("/images/sky.mp4");
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+}
+
   .image-container {
     width: 100%;
     height:450.33px;
