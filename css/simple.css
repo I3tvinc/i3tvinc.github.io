@@ -165,11 +165,11 @@ footer > a:link {
     border-radius: var(--standard-border-radius);
     border: 25px solid transparent;
     border-radius: 15px;
-    border-image-source: url("/images/eyeball.gif");
+    border-image-source: url("/images/wigeye.gif");
     display:block;
     margin: 1em auto;
     width: 80%;
-    height: calc(.5625 * 80vw);
+    height: calc(.6625 * 80vw);
   }
   }
   
@@ -178,7 +178,7 @@ footer > a:link {
       border-radius: var(--standard-border-radius);
       border: 25px solid transparent;
       border-radius: 15px;
-      border-image-source: url("/images/eyeball.gif");
+      border-image-source: url("/images/wigeye.gif");
       display:block;
       margin: 1em auto;
       width: 560.88px;
