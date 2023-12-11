@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+<script>
+    var mobilevideo = document.getElementsByTagName("video")[0];
+    mobilevideo.setAttribute("playsinline", "");
+    mobilevideo.setAttribute("muted", "");
+</script>
+
+
 <video id="backgroundvid" autoplay muted loop src="/images/sky.mp4"></video>
 <head>
 	<meta name="generator" content="Hugo 0.92.2" />
