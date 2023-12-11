@@ -127,7 +127,7 @@ footer > a:link {
   
   #socialborder {
 
-    width:75%;
+    width:90%;
     color: var(--border)
   
   }
@@ -144,19 +144,28 @@ footer > a:link {
     opacity: 80%;
     z-index:-1;
   }
-
+  
+/**********BigBrain************************/
   .image-container {
-    height:450.33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh; /* Set the initial width as a percentage of the window width */
+    height: 50vh; /* Allow the height to adjust proportionally */
     background-image: url('/images/BTV.gif'); /* Specify the path to the first image */
     background-size: cover; /* Ensure the image covers the container */
     background-position: center;
     transition: background-image 0.3s ease-in-out; /* Add a smooth transition effect */
+    margin: auto;
   }
+
 
   /* Change the background image on hover */
   .image-container:hover {
     background-image: url('/images/BTVH.gif'); /* Specify the path to the second image */
   }
+
+/******************************************/
 
 /*************youtube***********************/
 
@@ -164,25 +173,28 @@ footer > a:link {
   iframe{
     border-radius: var(--standard-border-radius);
     border: 25px solid transparent;
-    border-radius: 15px;
-    border-image-source: url("/images/wigeye.gif");
+    border-image-source: url("/images/eyeball.gif");
     display:block;
     margin: 1em auto;
-    width: 80%;
+    width: 100%;
     height: calc(.6625 * 80vw);
   }
   }
   
   @media only screen and (min-width: 780px) {
-    iframe{
-      border-radius: var(--standard-border-radius);
-      border: 25px solid transparent;
-      border-radius: 15px;
-      border-image-source: url("/images/wigeye.gif");
+    body, iframe{
       display:block;
       margin: 1em auto;
-      width: 560.88px;
-      height: 350.55px;
+      width: 960px;
+      height: 540px;
+
+    }
+
+    #homevid {
+
+      border-radius: var(--standard-border-radius);
+      border: 25px solid transparent;
+      border-image-source: url("/images/eyeball.gif");
 
     }
     }
